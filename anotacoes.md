@@ -62,3 +62,6 @@
 - Fechar a tarefa #3 no GitHub Projects.
 - Testar o GitHub Pages (tarefa #4).
 - Publicação do site confirmada no GitHub Pages.
+
+## Site do Jogo
+- [text](https://mirandaline432-max.github.io/Atividade-Final-EU-SOU-A-LENDA/)
