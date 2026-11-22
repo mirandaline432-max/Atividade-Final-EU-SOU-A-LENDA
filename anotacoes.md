@@ -56,12 +56,53 @@
 - Stamina e botão de correr.
 - Estacas em volta da casa.
 
-## Pendências
+## 20 e 22/nov: o que aprendi
 
-- Fazer o primeiro commit e push deste arquivo (`anotacoes.md`).
-- Fechar a tarefa #3 no GitHub Projects.
-- Testar o GitHub Pages (tarefa #4).
-- Publicação do site confirmada no GitHub Pages.
+### Decisões (`if`)
+- `if` faz uma pergunta de sim ou não. `else if` é a pergunta seguinte. `else` é "em todos os outros casos" e não leva pergunta.
+- `=` guarda um valor e `===` pergunta se é igual.
+- O computador lê de cima para baixo e para na primeira pergunta verdadeira.
+
+### Funções
+- Função é uma receita com nome: ingredientes (parâmetros), modo de preparo e resultado.
+- `void` significa que a função não devolve nada, só faz um trabalho.
+- Escrever a função só guarda a receita. Ela só roda quando é chamada: `passarNoite();`
+
+### Minha função do alho
+```ts
+let corAlho: string = "Arroxeado";
+let noitesQueFaltam: number = 2;
+
+function passarNoite(): void {
+  if (noitesQueFaltam > 0) {
+  noitesQueFaltam = noitesQueFaltam - 1;
+        if (noitesQueFaltam === 2) {
+            corAlho = "Arroxeado";
+            console.log(corAlho);
+        } else if (noitesQueFaltam === 1) {
+            corAlho = "Amarelado";
+            console.log(corAlho);
+         } else if(noitesQueFaltam == 0) {
+            corAlho = "Marrom";
+             console.log(corAlho);
+        }
+
+    }   
+}
+
+passarNoite();
+```
+
+## Decisões de design
+- O relógio do jogo decide quando o dia acaba (Timer, 4 a 5 minutos). A função `passarNoite` só faz a conta quando é chamada.
+- Tela cinza-escura para dar clima sombrio. Decidir as cores na tarefa do cenário (#11).
+- `console.log` não aparece na tela do jogo, serve só para testar. Quem mostra a cor do alho é o sprite.
+- A horta precisa de uma gaveta própria, além de `quantAlho` (alho na mão).
+
+## Pendências
+- Padronizar maiúsculas e minúsculas nos textos das cores.
+- Decidir o que o `else` faz se `noitesQueFaltam` tiver um valor que não existe, como 5 ou -1.
+- Repetições, listas e classes: ver no estudo do Excalibur.
 
 ## Site do Jogo
 - [text](https://mirandaline432-max.github.io/Atividade-Final-EU-SOU-A-LENDA/)
