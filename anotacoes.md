@@ -93,6 +93,15 @@ function passarNoite(): void {
 passarNoite();
 ```
 
+
+## 23/nov: o que estudei
+
+- **Engine, Scene e Actor:** A `Engine` é o motor que controla e roda o jogo inteiro; a `Scene` é cada tela ou fase (menu, fase 1, game over); e o `Actor` é qualquer elemento que aparece e interage na tela (jogador, inimigos, itens).
+- **Coordenadas x e y:** O ponto `(0, 0)` fica no canto superior esquerdo da tela. O eixo `x` aumenta para a direita e o eixo `y` cresce para baixo.
+- **Loop do jogo:** É um ciclo contínuo (`update` + `draw`) que roda dezenas de vezes por segundo para ler comandos, atualizar posições e redesenhar a tela.
+- **Cálculo de velocidade:** É definido multiplicando os passos (pixels) por atualização pela quantidade de atualizações por segundo (FPS), garantindo movimento constante usando o tempo entre frames (`delta`).
+
+
 ## Decisões de design
 - O relógio do jogo decide quando o dia acaba (Timer, 4 a 5 minutos). A função `passarNoite` só faz a conta quando é chamada.
 - Tela cinza-escura para dar clima sombrio. Decidir as cores na tarefa do cenário (#11).
