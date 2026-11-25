@@ -108,6 +108,8 @@ passarNoite();
 - **Configuração com a CLI:** Rodei o criador oficial escolhendo as opções **Create a game**, **TypeScript with Vite** e confirmei a **instalação das dependências** automaticamente.
 - **Execução local:** Subi o servidor de desenvolvimento e validei o funcionamento do projeto base abrindo o jogo no navegador em `localhost:5173`.
 - **Estrutura vs. Autoria:** Entendi que a estrutura inicial (arquivos base e configurações) foi gerada pela ferramenta oficial do Excalibur, mas toda a lógica, mecânicas e código do jogo serão desenvolvidos por mim.
+- **Projeto base no ar:** Criei a pasta `eu-sou-a-lenda` dentro do repositório usando `create-excalibur` (TypeScript + Vite), validei em `localhost:5173` e entendi como os scripts do `package.json` (`start`) e o `.gitignore` funcionam.
+- **Classes e objetos (molde de biscoito):** A classe é o molde que define o tipo da coisa e suas características (gavetas), enquanto cada objeto criado a partir dela é um item individual com seus próprios valores (ex: 1 molde `Alho` para criar 5 alhos diferentes pendurados).
 
 
 ## Decisões de design
