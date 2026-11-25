@@ -102,6 +102,14 @@ passarNoite();
 - **Cálculo de velocidade:** É definido multiplicando os passos (pixels) por atualização pela quantidade de atualizações por segundo (FPS), garantindo movimento constante usando o tempo entre frames (`delta`).
 
 
+## 24/nov: o que fiz
+
+- **Pasta do projeto:** Criei a pasta `eu-sou-a-lenda` dentro do repositório principal para manter todo o histórico de estudos, anotações e o código do jogo organizados em um único lugar.
+- **Configuração com a CLI:** Rodei o criador oficial escolhendo as opções **Create a game**, **TypeScript with Vite** e confirmei a **instalação das dependências** automaticamente.
+- **Execução local:** Subi o servidor de desenvolvimento e validei o funcionamento do projeto base abrindo o jogo no navegador em `localhost:5173`.
+- **Estrutura vs. Autoria:** Entendi que a estrutura inicial (arquivos base e configurações) foi gerada pela ferramenta oficial do Excalibur, mas toda a lógica, mecânicas e código do jogo serão desenvolvidos por mim.
+
+
 ## Decisões de design
 - O relógio do jogo decide quando o dia acaba (Timer, 4 a 5 minutos). A função `passarNoite` só faz a conta quando é chamada.
 - Tela cinza-escura para dar clima sombrio. Decidir as cores na tarefa do cenário (#11).
